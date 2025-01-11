@@ -1,0 +1,1 @@
+GAME_WINDOW_NAME="CO - Universal"

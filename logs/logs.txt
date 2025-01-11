@@ -1,0 +1,737 @@
+2024-04-04 00:50:03,315 - ERROR - Error running main function as admin
+Traceback (most recent call last):
+  File "C:\Users\Nguyen Cong Luc\AppData\Local\Programs\Python\Python310\lib\site-packages\pyuac\main_decorator.py", line 89, in main_requires_admin
+    rv = run_function(*args, **kwargs)
+  File "d:\Job\AUTO_GAME\main.py", line 10, in main
+    fgh
+NameError: name 'fgh' is not defined
+2024-04-04 00:50:03,315 - ERROR - Unhandled exception: name 'fgh' is not defined
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\main.py", line 23, in <module>
+    main()
+  File "<decorator-gen-2>", line 2, in main
+  File "C:\Users\Nguyen Cong Luc\AppData\Local\Programs\Python\Python310\lib\site-packages\pyuac\main_decorator.py", line 89, in main_requires_admin
+    rv = run_function(*args, **kwargs)
+  File "d:\Job\AUTO_GAME\main.py", line 10, in main
+    fgh
+NameError: name 'fgh' is not defined
+2024-04-13 18:21:22,527 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 14, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:22:22,541 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 14, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:24:25,015 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "D:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "D:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "D:\Job\AUTO_GAME\src\controllers\login_thread.py", line 14, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:26:37,787 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 47, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 14, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:27:06,652 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 14, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:27:17,492 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 14, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:28:46,873 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 14, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:28:58,369 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 15, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:29:10,218 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 15, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 18:29:28,257 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 16, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-13 19:01:49,257 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'loginAccounts'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 45, in __init__
+    self.login_thread = LoginThread(self)
+  File "d:\Job\AUTO_GAME\src\controllers\login_thread.py", line 65, in __init__
+    self.loginAccounts = mainWindowHandle.loginAccounts
+AttributeError: 'MainWindowHandle' object has no attribute 'loginAccounts'
+2024-04-17 10:17:13,962 - ERROR - Unhandled exception: TableWidgetHandle.__init__() missing 1 required positional argument: 'mainWindowHandle'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle()
+TypeError: TableWidgetHandle.__init__() missing 1 required positional argument: 'mainWindowHandle'
+2024-04-17 10:18:04,420 - ERROR - Unhandled exception: TableWidgetHandle.__init__() missing 1 required positional argument: 'mainWindowHandle'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle()
+TypeError: TableWidgetHandle.__init__() missing 1 required positional argument: 'mainWindowHandle'
+2024-04-17 10:18:38,355 - ERROR - Unhandled exception: TableWidgetHandle.__init__() missing 1 required positional argument: 'mainWindowHandle'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle()
+TypeError: TableWidgetHandle.__init__() missing 1 required positional argument: 'mainWindowHandle'
+2024-04-17 10:18:54,768 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 13, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 29, in load_data_to_tableWidget
+    self.set_status_collum()
+AttributeError: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+2024-04-17 10:19:55,690 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 13, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 29, in load_data_to_tableWidget
+    self.set_status_collum()
+AttributeError: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+2024-04-17 10:20:34,178 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 15, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 31, in load_data_to_tableWidget
+    self.set_status_collum()
+AttributeError: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+2024-04-17 10:20:43,215 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 16, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 33, in load_data_to_tableWidget
+    self.set_status_collum()
+AttributeError: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+2024-04-17 10:22:01,580 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 34, in load_data_to_tableWidget
+    self.set_status_collum()
+AttributeError: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+2024-04-17 10:23:06,973 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 34, in load_data_to_tableWidget
+    self.set_status_collum()
+AttributeError: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+2024-04-17 10:23:52,612 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 32, in load_data_to_tableWidget
+    self.set_status_collum()
+AttributeError: 'TableWidgetHandle' object has no attribute 'set_status_collum'
+2024-04-17 10:24:51,306 - ERROR - Unhandled exception: name 'QWidget' is not defined
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 33, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 71, in set_checkbox_collum
+    widget = QWidget()
+NameError: name 'QWidget' is not defined
+2024-04-17 10:25:16,419 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'handle_checkbox_state_changed'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 33, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 87, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed)
+AttributeError: 'TableWidgetHandle' object has no attribute 'handle_checkbox_state_changed'
+2024-04-17 10:26:01,580 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'data_path'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.print_account_from_tableWidget(self.data_path)
+AttributeError: 'TableWidgetHandle' object has no attribute 'data_path'
+2024-04-17 10:27:09,110 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'data_path'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 38, in load_data_to_tableWidget
+    self.print_account_from_tableWidget(self.data_path)
+AttributeError: 'TableWidgetHandle' object has no attribute 'data_path'
+2024-04-17 10:27:43,372 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'data_path'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 36, in load_data_to_tableWidget
+    self.print_account_from_tableWidget(self.data_path)
+AttributeError: 'TableWidgetHandle' object has no attribute 'data_path'
+2024-04-17 10:27:53,516 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'data_path'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 36, in load_data_to_tableWidget
+    self.print_account_from_tableWidget(self.data_path)
+AttributeError: 'TableWidgetHandle' object has no attribute 'data_path'
+2024-04-17 10:27:59,440 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'data_path'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 36, in load_data_to_tableWidget
+    self.print_account_from_tableWidget(self.data_path)
+AttributeError: 'TableWidgetHandle' object has no attribute 'data_path'
+2024-04-17 10:28:06,527 - ERROR - Unhandled exception: 'TableWidgetHandle' object has no attribute 'data_path'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 14, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 36, in load_data_to_tableWidget
+    self.print_account_from_tableWidget(self.data_path)
+AttributeError: 'TableWidgetHandle' object has no attribute 'data_path'
+2024-04-17 10:30:22,693 - ERROR - Unhandled exception: 'MainWindowHandle' object has no attribute 'load_data_to_tableWidget'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 16, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+AttributeError: 'MainWindowHandle' object has no attribute 'load_data_to_tableWidget'
+2024-04-17 10:55:33,880 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 35, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 100, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 77, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:26:45,721 - ERROR - Unhandled exception: 'Ui_MainWindow' object has no attribute 'tableWidget'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 29, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 18, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 27, in load_data_to_tableWidget
+    self.ui.tableWidget.setRowCount(num_rows)
+AttributeError: 'Ui_MainWindow' object has no attribute 'tableWidget'
+2024-04-17 11:27:29,930 - ERROR - Unhandled exception: 'Ui_MainWindow' object has no attribute 'tableWidget'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 18, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 28, in load_data_to_tableWidget
+    self.ui.tableWidget.setRowCount(num_rows)
+AttributeError: 'Ui_MainWindow' object has no attribute 'tableWidget'
+2024-04-17 11:27:37,940 - ERROR - Unhandled exception: 'Ui_MainWindow' object has no attribute 'tableWidget'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 18, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 29, in load_data_to_tableWidget
+    self.ui.tableWidget.setRowCount(num_rows)
+AttributeError: 'Ui_MainWindow' object has no attribute 'tableWidget'
+2024-04-17 11:27:46,822 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 18, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 38, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 103, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 80, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:27:54,228 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 19, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 104, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 81, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:28:35,754 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 18, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 104, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 81, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:28:56,519 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 105, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 82, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:29:07,990 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 106, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 82, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:29:32,665 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 109, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 84, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:30:19,128 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 109, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 84, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:31:17,730 - ERROR - Unhandled exception: unbound method QObject.sender() needs an argument
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 109, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 82, in handle_checkbox_state_changed
+    checkbox = QMainWindow.sender()
+TypeError: unbound method QObject.sender() needs an argument
+2024-04-17 11:31:29,923 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 109, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 84, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:33:01,992 - ERROR - Unhandled exception: 'PySide6.QtWidgets.QMainWindow' object is not callable
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 109, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 82, in handle_checkbox_state_changed
+    checkbox = QMainWindow()(self.mainWindowHandle).sender()
+TypeError: 'PySide6.QtWidgets.QMainWindow' object is not callable
+2024-04-17 11:33:49,672 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 109, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 84, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:34:04,820 - ERROR - Unhandled exception: 'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 28, in __init__
+    self.tableWidgetHandle=TableWidgetHandle(self)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 17, in __init__
+    self.load_data_to_tableWidget(mainWindowHandle.data_path)
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 39, in load_data_to_tableWidget
+    self.set_checkbox_collum()
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 110, in set_checkbox_collum
+    checkbox.stateChanged.connect(self.handle_checkbox_state_changed(checkbox))
+  File "d:\Job\AUTO_GAME\src\controllers\components\table_widget_handle.py", line 85, in handle_checkbox_state_changed
+    row = self.ui.tableWidget.indexAt(checkbox.parent().pos()).row()
+AttributeError: 'NoneType' object has no attribute 'parent'
+2024-04-17 11:49:10,585 - ERROR - Unhandled exception: TableWidgetHandle.__init__() missing 1 required positional argument: 'main_window_handle'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 31, in __init__
+    self.a=TableWidgetHandle()
+TypeError: TableWidgetHandle.__init__() missing 1 required positional argument: 'main_window_handle'
+2024-04-18 22:10:08,800 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 48, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:12:54,061 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 48, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:14:58,061 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 48, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:15:13,343 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 48, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:15:56,995 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 48, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:16:17,326 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 49, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:16:27,750 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 50, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:16:36,209 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 50, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:16:44,349 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 50, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-18 22:16:56,038 - ERROR - Unhandled exception: 'GameController' object has no attribute 'control_pause_resume'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 51, in __init__
+    self.control_pause_resume=GameController(self.login_thread).control_pause_resume()
+AttributeError: 'GameController' object has no attribute 'control_pause_resume'
+2024-04-20 23:49:08,907 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 21, in __init__
+    self.setWindowTitle("Conquer Sky App", UpdateChecker().app_version)
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:49:52,291 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 20, in __init__
+    self.setWindowTitle("Conquer Sky App", UpdateChecker().app_version)
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:50:04,239 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 20, in __init__
+    self.setWindowTitle("Conquer Sky App", UpdateChecker().app_version)
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:50:25,737 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 22, in __init__
+    self.setWindowTitle("Conquer Sky App", UpdateChecker().app_version)
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:50:36,811 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 21, in __init__
+    self.setWindowTitle("Conquer Sky App", UpdateChecker().app_version)
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:51:03,762 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 21, in __init__
+    self.update_checker = UpdateChecker()
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:51:21,958 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 21, in __init__
+    self.update_checker = UpdateChecker()
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:51:36,047 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 21, in __init__
+    self.update_checker = UpdateChecker()
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:51:46,670 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 22, in __init__
+    self.update_checker = UpdateChecker()
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:54:11,013 - ERROR - Unhandled exception: [Errno 2] No such file or directory: './update_info.json'
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 22, in __init__
+    self.update_checker = UpdateChecker()
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 13, in __init__
+    self.app_version = self.get_current_version()  # Current version of the application
+  File "d:\Job\AUTO_GAME\src\controllers\update.py", line 18, in get_current_version
+    with open('./update_info.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: './update_info.json'
+2024-04-20 23:55:17,321 - ERROR - Unhandled exception: MainWindowHandle.setWindowTitle() takes exactly one argument (2 given)
+Traceback (most recent call last):
+  File "d:\Job\AUTO_GAME\app.py", line 11, in main
+    window = MainWindowHandle()
+  File "d:\Job\AUTO_GAME\src\controllers\main_window_handle.py", line 25, in __init__
+    self.setWindowTitle("Conquer Sky App",  self.update_checker.app_version)
+TypeError: MainWindowHandle.setWindowTitle() takes exactly one argument (2 given)

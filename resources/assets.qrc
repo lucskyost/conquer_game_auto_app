@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/default_avatar.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/rocket_icon.png</file>
+    <file>icons/import_icon.png</file>
+    <file>icons/reload_icon.png</file>
+    <file>icons/sort_icon.png</file>
+    <file>icons/close_icon.png</file>
+    <file>icons/play_icon.png</file>
+    <file>icons/adress_icon.png</file>
+    <file>icons/contact_icon.png</file>
+    <file>icons/folder_icon.png</file>
+    <file>icons/genera_icon.png</file>
+    <file>icons/settings_icon.png</file>
+  </qresource>
+</RCC>

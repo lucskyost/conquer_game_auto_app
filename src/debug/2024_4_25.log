@@ -1,0 +1,5 @@
+Init DLL Assist.dll fail at d:\cqclient\cqclient-r180.06\myshell\dllloader.cpp, 78 -- Thu Apr 25 12:24:56 2024
+Init DLL OpenAL32.dll fail at d:\cqclient\cqclient-r180.06\myshell\dllloader.cpp, 78 -- Thu Apr 25 12:24:56 2024
+Init DLL wrap_oal.dll fail at d:\cqclient\cqclient-r180.06\myshell\dllloader.cpp, 78 -- Thu Apr 25 12:24:56 2024
+Init DLL TQPlat.dll fail at d:\cqclient\cqclient-r180.06\myshell\dllloader.cpp, 78 -- Thu Apr 25 12:24:56 2024
+Init DLL WordsCheck.dll fail at d:\cqclient\cqclient-r180.06\myshell\dllloader.cpp, 78 -- Thu Apr 25 12:24:56 2024

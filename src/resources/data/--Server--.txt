@@ -1,0 +1,36 @@
+--Server--
+100, 180        300, 180   Gốc 100, 180 
+
+100, 220        300, 220   Chênh lệch X=200, Y=40
+
+100, 260
+
+
+
+0->17   18<=server<=35,     36<   <53
+
+        server=server - (server/18)*18 #Quy về thang 18 ô( 0-17) 1 bảng, gồm 2 cột tức là để tính x
+        if server<=8: xS = 100 #server<=9 la cot trai
+        elif server<=17: xS = 300#server<=17 la cot phai
+        server=server - (server/9)*9 #Quy đổi về 9 hàng(0-8) để tính y 
+        yS= 180+server*40
+        xG=0;yG=0
+
+
+
+
+
+--Group--
+500, 180  700, 180    900, 180   Gốc 500, 180
+
+500, 280  700, 280    900, 280   Chênh lệch X=200, Y=100
+
+500, 380 
+
+--Group--
+
+y = 180 + (group/3)*100 #Quy đổi về thang 4 dòng từ trên xuống, 1 dòng 3 ô để tính y
+group=group-(group/3)*3  #Quy đổi về thang 3 cột từ trái sang phải, 1 cột 3 ô để để tính x
+x= 500 + group*200
+
+

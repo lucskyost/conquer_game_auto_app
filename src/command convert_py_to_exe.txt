@@ -1,0 +1,1 @@
+pyinstaller app.py --onefile --noconsole --name=ConquerAutoApp --icon=./resources/icons/rocket_icon.png --add-data "C:\Users\Nguyen Cong Luc\AppData\Local\Programs\Python\Python310\Lib\site-packages\ahk;ahk"
